@@ -1,5 +1,5 @@
 
-programa {
+	programa {
     funcao inicio() {
            
            
@@ -45,6 +45,16 @@ programa {
                 para (Mindice = 0; Mindice <= 1; Mindice ++)
                 {
                     escreva ("\nAluno: ", Mnome[Mturma][Mindice])
+                    se(Mfisica[Mturma][Mindice]<=60)
+
+                    escreva ("aprovado")
+
+
+                   senao
+
+                   escreva ("reprovado")
+                   
+                  
                    
                    
                 }
@@ -52,3 +62,5 @@ programa {
     }
 
 }
+
+    
